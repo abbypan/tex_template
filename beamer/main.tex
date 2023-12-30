@@ -1,0 +1,71 @@
+\documentclass{ctexbeamer}
+%\setbeamercolor{titlelike}{parent=structure,bg=lightgray}
+\setbeamercovered{transparent}
+%\usefonttheme{structurebold}
+%\usetheme{CambridgeUS}
+%\usecolortheme{rose}
+%\usecolortheme{beaver}
+%\usecolortheme{crane}
+\useoutertheme{infolines}
+
+\usepackage{hyperref} 
+%\setbeamerfont{footnote}{size=\tiny}
+
+
+\usepackage[backend=biber]{biblatex}
+\bibliography{main.bib}
+
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+
+
+\renewcommand{\figurename}{Fig}
+
+\title{ttt}
+
+\author{uuu \newline  \newline xxx@xxx.com}
+\institute[China]{xxx}
+
+\date{20xx.xx}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\tableofcontents}
+\clearpage
+
+\section{xxx}
+
+\subsection{xxx}
+\begin{frame}
+    \frametitle{xxx}
+
+   测试 
+
+    %\begin{figure}[H] 
+    %\centering 
+    %\includegraphics[width=0.7\textwidth]{figures/main_process.png} 
+    %\caption{Main Process} 
+    %\label{fig.main_process}
+    %\end{figure}
+
+\end{frame}
+
+\section{zzz}
+
+\subsection{zzz}
+\begin{frame}
+    \frametitle{zzz}
+
+    zzz \cite{mockapetris1987domain}.
+\end{frame}
+
+
+\section{Reference}
+\begin{frame}{Reference}
+
+    \printbibliography
+
+\end{frame}
+
+\end{document}
