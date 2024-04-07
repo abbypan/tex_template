@@ -1,9 +1,12 @@
 PRJ = main
 
+EXTRA =  --shell-escape
 # Small cheat to allow synchronization between PDF and .tex for supported editors (run `make S=1`)
+
 ifdef S
-EXTRA = -synctex=1
+EXTRA = -synctex=1  --shell-escape
 endif
+
 
 PYTHON3 := $(shell type -P python3 || echo "")
 
