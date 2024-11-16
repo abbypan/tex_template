@@ -4,23 +4,27 @@
 
 ## acm sigconf
 
-from: https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty
+https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty
 
 ## ieee
 
-from: https://www.ieee.org/conferences/publishing/templates.html
+https://www.ieee.org/conferences/publishing/templates.html
     
 ## llncs
 
-from https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
     
 ## svmult
 
 Lecture Notes Style of Springer Proceedings
 
-from http://voyager.ce.fit.ac.jp/conftools/Springer/For-the-authors-LECTURE-NOTES-TEMPLATES.zip
+http://voyager.ce.fit.ac.jp/conftools/Springer/For-the-authors-LECTURE-NOTES-TEMPLATES.zip
+
+## scitepress
+
+https://www.scitepress.org/documents/SCITEPRESS\_Conference\_Latex.zip
 
 ## ctex beamer
 
-from: https://www.ctan.org/tex-archive/language/chinese/ctex
+https://www.ctan.org/tex-archive/language/chinese/ctex
 
